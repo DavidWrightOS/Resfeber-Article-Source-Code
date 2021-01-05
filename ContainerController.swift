@@ -69,8 +69,11 @@ class ContainerController: UIViewController {
     @objc private func profileImageTapped() {
         animateSideMenu()
     }
+}
     
-    // MARK: - Animation
+// MARK: - Animation
+
+extension ContainerController {
     
     private func animateSideMenu() {
         
